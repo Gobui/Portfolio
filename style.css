@@ -1,0 +1,49 @@
+.container {
+    margin: 2px;
+    text-align: center;
+    position: relative;
+    padding: 120;
+    z-index: 1;
+    background: none;
+}
+
+.title {
+    left: 50%;
+    width: 180px;
+    position: relative;
+    margin-top: 70px;
+    transform: translate(-50%);
+    z-index: 1;
+}
+
+#gobuilogo {
+    height: 100px;
+    margin: 10px
+}
+
+#info {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    width: 600px;
+    background-color: white;
+    line-height:24px;
+    
+    font-family: "Patrick Hand", cursive;
+    font-style: normal;
+    font-weight: 540;
+    font-size: 22;
+}
+
+.icon {
+    width: 80px;
+    margin-top: 10px;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    bottom: 20px;
+}
